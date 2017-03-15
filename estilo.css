@@ -1,0 +1,138 @@
+/*@media screen and (min-width 480px){
+
+}
+
+@media screen and (min-width 767px){
+
+}
+
+@media screen and (min-width 950px){
+
+}
+@media (min-width: 480px) and (max-width: 767px) {
+.hidden-desktop {
+	display: inherit !important;
+}*/
+
+@media (min-width: 768px) and (max-width: 979px) {
+.hidden-desktop {
+	display: inherit !important;
+}
+.visible-desktop {
+	display: none !important;
+}
+.visible-tablet {
+	display: inherit !important;
+}
+.hidden-tablet {
+	display: none !important;
+}
+}
+ @media (max-width: 767px) {
+.hidden-desktop {
+	display: inherit !important;
+}
+.visible-desktop {
+	display: none !important;
+}
+.visible-phone {
+	display: inherit !important;
+}
+.hidden-phone {
+	display: none !important;
+}
+}
+ @media (min-width: 1200px) {
+.row {
+	margin-left: -30px;
+ *zoom: 1;
+}
+
+#Titulo{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    text-align: center;  
+    padding-top: 20px;
+    padding-bottom: 20px;        
+}
+
+#menup{ 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 22px;    
+    background-color: #d59898;
+    border: 2px solid black;
+    padding: 0px 50px 0px 50px;     
+}
+
+#menuc{ 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: white;    
+    background-color: #c14543;
+    border: 2px solid black;
+    padding: 0px 50px 0px 50px;
+}
+
+#menus{ 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 22px;    
+    background-color: #e5d198;
+    border: 2px solid black;
+    padding: 0px 50px 0px 50px;
+}
+
+
+
+#panelp{  
+    /*width: 400px;
+    height: 150px;*/
+    width: 30%;
+    height: 18%;
+    margin-left: 10px;
+    padding: 5px;
+    border: 2px solid black;
+    background-color: #999999;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 2%;
+    margin-left: 2%;     
+}
+
+#panelc{
+    /*width: 400px;
+    height: 150px;*/
+    width: 30%;
+    height: 18%;
+    margin-left: 10px;
+    padding: 5px;
+    border: 2px solid black;
+    background-color: #999999;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 2%;
+    margin-left: 2%;    
+}
+
+#panels{
+    /*width: 400px;
+    height: 150px;*/
+    width: 30%;
+    height: 18%;
+    margin-left: 10px;
+    padding: 5px;
+    border: 2px solid black;
+    background-color: #999999;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+#texto{
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    
+}
